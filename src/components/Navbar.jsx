@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="w-full relative">
       <div className="flex items-center justify-between">
-        <Image src={logo} alt="Blueberry" width={130} height={40} />
+        <Image src={logo} alt="Blueberry" className="cursor-pointer" width={130} height={40} />
 
         <ul className="hidden lg:flex items-center gap-2 text-[#212952] font-medium text-[15px] pl-18">
           <li className="px-5 py-2 rounded-xl cursor-pointer flex items-center gap-1 hover:bg-[#E9EDF5] transition">
@@ -34,8 +34,8 @@ const Navbar = () => {
         </ul>
 
         <div className="hidden lg:flex items-center gap-4">
-          <button className="text-[#212952]">Sign in</button>
-          <button className="bg-[#212952] text-white px-3 py-3 rounded-full font-semibold flex items-center gap-2 hover:opacity-90 transition">
+          <button className="text-[#212952] cursor-pointer">Sign in</button>
+          <button className="bg-[#212952] text-white px-3 py-3 rounded-full font-semibold flex items-center gap-2 hover:opacity-90 cursor-pointer transition">
             Get berry <ArrowRight size={18} />
           </button>
         </div>

@@ -103,7 +103,7 @@ const Page = () => {
             rounded-full 
             flex items-center gap-2 sm:gap-3 
             text-xs sm:text-sm
-            transition-transform active:scale-95 hover:opacity-90
+            transition-transform active:scale-95 hover:opacity-90 cursor-pointer
           "
           >
             <Image
