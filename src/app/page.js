@@ -20,19 +20,19 @@ const Page = () => {
           <div className="md:flex items-center gap-3 mb-10">
             <div className="flex -space-x-3">
               <div className="w-8 h-8 rounded-full border-2 border-white overflow-hidden relative">
-                <Image src={p1} alt="user" fill className="object-cover" />
+                <Image src={p1} alt="user" loading="lazy" fill className="object-cover" />
               </div>
 
               <div className="w-8 h-8 rounded-full border-2 border-white overflow-hidden relative">
-                <Image src={p2} alt="user" fill className="object-cover" />
+                <Image src={p2} alt="user" loading="lazy" fill className="object-cover" />
               </div>
 
               <div className="w-8 h-8 rounded-full border-2 border-white overflow-hidden relative">
-                <Image src={p3} alt="user" fill className="object-cover" />
+                <Image src={p3} alt="user" loading="lazy" fill className="object-cover" />
               </div>
 
               <div className="w-8 h-8 rounded-full border-2 border-white overflow-hidden relative">
-                <Image src={p4} alt="user" fill className="object-cover" />
+                <Image src={p4} alt="user" loading="lazy" fill className="object-cover" />
               </div>
 
               <div className="w-8 h-8 rounded-full border-2 bg-[#5b6ab0] border-white overflow-hidden relative">
@@ -62,6 +62,7 @@ const Page = () => {
               alt="Apple"
               width={20}
               height={20}
+              priority
               className="object-contain brightness-0 invert"
             />
             Download for iOS

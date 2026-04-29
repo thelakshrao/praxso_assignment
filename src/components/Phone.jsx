@@ -158,6 +158,7 @@ const InfiniteCarousel = ({ index }) => {
                 src={imageObj}
                 alt="Grocery"
                 placeholder="blur"
+                loading="lazy"
                 className="w-full h-full object-cover"
               />{" "}
             </motion.div>
@@ -193,6 +194,8 @@ const BottomSheet = ({ index }) => {
               src={productImg}
               alt="product"
               fill
+              loading="lazy"
+              sizes="80px"
               className="object-contain"
             />
           </div>
@@ -234,6 +237,7 @@ const BottomSheet = ({ index }) => {
                 src={PBerry}
                 alt="berry"
                 fill
+                loading="lazy"
                 sizes="40px"
                 className="object-cover"
               />
